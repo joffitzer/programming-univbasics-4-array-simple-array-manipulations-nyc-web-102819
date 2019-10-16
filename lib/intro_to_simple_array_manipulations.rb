@@ -11,7 +11,7 @@ def using_unshift(boroughs_in_nyc, new_neighborhood)
 end
 
 def using_pop(continents)
-  continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
+  continents.pop
   deleted_string = continents.pop
 end
 
